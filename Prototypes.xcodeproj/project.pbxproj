@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB432B3A26640C9D000EEB81 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB432B3926640C9D000EEB81 /* UILabel.swift */; };
 		FBCA5D7B261C381400E4A85A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA5D7A261C381400E4A85A /* AppDelegate.swift */; };
 		FBCA5D7D261C381400E4A85A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA5D7C261C381400E4A85A /* SceneDelegate.swift */; };
 		FBCA5D7F261C381400E4A85A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA5D7E261C381400E4A85A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB432B3926640C9D000EEB81 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		FBCA5D77261C381400E4A85A /* Prototypes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototypes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCA5D7A261C381400E4A85A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBCA5D7C261C381400E4A85A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB432B3B26640CC2000EEB81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB432B3926640C9D000EEB81 /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FBCA5D6E261C381400E4A85A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		FBCA5D79261C381400E4A85A /* Prototypes */ = {
 			isa = PBXGroup;
 			children = (
+				FB432B3B26640CC2000EEB81 /* Extensions */,
 				FBCA5D7A261C381400E4A85A /* AppDelegate.swift */,
 				FBCA5D7C261C381400E4A85A /* SceneDelegate.swift */,
 				FBCA5D7E261C381400E4A85A /* ViewController.swift */,
@@ -139,6 +150,7 @@
 			files = (
 				FBCA5D7F261C381400E4A85A /* ViewController.swift in Sources */,
 				FBCA5D7B261C381400E4A85A /* AppDelegate.swift in Sources */,
+				FB432B3A26640C9D000EEB81 /* UILabel.swift in Sources */,
 				FBCA5D7D261C381400E4A85A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
